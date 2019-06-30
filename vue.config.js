@@ -111,7 +111,7 @@ module.exports = {
     pwa: {},
     // webpack-dev-server 相关配置
     devServer: {
-        port: 8080,
+        port: 9090,
         https: false,
         hotOnly: false,
         open: true, //配置自动启动浏览器

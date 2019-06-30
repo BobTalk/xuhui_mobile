@@ -21,7 +21,11 @@ export function sendPost(url, data = {}) {
     return new Promise((resolve, reject) => {
         axios.post(BASEURL + url, data)
             .then(response => {
-                resolve(response.data);
+                if (response.status === 200) {
+                    resolve(response.data.body);
+                } else {
+                    reject(response.data.body.message)
+                }
             }).catch(err => {
                 reject(err);
             });
