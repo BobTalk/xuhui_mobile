@@ -1,5 +1,7 @@
-<template>//商业分割方案
-
+<template>
+  <div>
+    商业分割方案
+  </div>
 </template>
 
 <script>

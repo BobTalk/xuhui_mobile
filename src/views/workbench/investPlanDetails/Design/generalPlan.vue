@@ -1,5 +1,6 @@
-<template>//设计总图
+<template>
   <div>
+    <!-- //设计总图 -->
     <van-image
       width="100"
       height="100"
