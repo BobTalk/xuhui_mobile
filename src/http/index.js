@@ -17,5 +17,23 @@ export default {
             }, err => {
                 fn(err);
             });
+    },
+    // 以后用到PUT请求时添加
+    allRequestPut(url, params, fn) {
+        return sendPut(url, params)
+            .then(res => {
+                fn(res);
+            }, err => {
+                fn(err);
+            });
+    },
+    // DELETE
+    allRequestDetele(url, params, fn) {
+        return sendDelete(url, params)
+            .then(res => {
+                fn(res);
+            }, err => {
+                fn(err);
+            });
     }
 };
