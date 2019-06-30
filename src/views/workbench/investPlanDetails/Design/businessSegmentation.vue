@@ -1,10 +1,10 @@
-<template>
+<template>//商业分割方案
 
 </template>
 
 <script>
 export default {
-  name:'Design',
+  name:'',
   data(){
    return {
 

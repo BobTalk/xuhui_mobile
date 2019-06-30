@@ -17,9 +17,9 @@ export default {
   name:'index',
   data(){
    return {
-       currentComp:'Marketing',//默认显示组件
+       currentComp:'Design',//默认显示组件
        versionId:'',
-       roleType:1,//根据权限动态渲染组件 索引值
+       roleType:3,//根据权限动态渲染组件 索引值
        compToggle:false
    }
   },
