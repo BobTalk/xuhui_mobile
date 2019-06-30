@@ -1,7 +1,7 @@
 <template>
     <!-- 越规提示 -->
     <div v-if='getCrossRuleCompToggleG'>
-         <compHeader titleName='越规提示'></compHeader>
+        <compHeader titleName='越规提示'></compHeader>
         <div class="cross-rule">
             <ul class="table-header">
                 <li class="tableW item fontW inline borderT" v-for="(item,index) in crossRuleHeader" :key="`header_${index}`" :style="{'width':(item.liW ? item.liW : '')}">
