@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name:'Finance',
+  name:'marketing-index',
   data(){
    return {
 

@@ -8,11 +8,11 @@
 <script>
 import {mapGetters} from 'vuex'
 import publicTable from './crossRule.vue'
-import Marketing from './Marketing/index.vue'//营销
-import Cost from './Cost/index.vue'//成本
-import Design from './Design/index.vue'//设计
-import Operate from './Operate/index.vue'//运营
-import Finance from './Finance/index.vue'//财务
+import Marketing from './Marketing/marketing-index.vue'//营销
+import Cost from './Cost/cost-index.vue'//成本
+import Design from './Design/design-index.vue'//设计
+import Operate from './Operate/operate-index.vue'//运营
+import Finance from './Finance/finance-index.vue'//财务
 export default {
   name:'index',
   data(){
