@@ -1,27 +1,39 @@
 <template>
-  <div>
+  <div class="general-plan">
     <!-- //设计总图 -->
-    <van-image
-      width="100"
-      height="100"
-      src="https://img.yzcdn.cn/vant/cat.jpeg"
-    />
+    <div>
+      <van-image src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+      <van-cell-group>
+        <van-cell title="单元格" value="内容"/>
+        <van-cell title="单元格" value="内容"/>
+        <van-cell title="单元格" value="内容"/>
+        <van-cell title="单元格" value="内容"/>
+      </van-cell-group>
+      <tableComp></tableComp>
+    </div>
+    
   </div>
 </template>
 
 <script>
-import { Image } from 'vant';
+import { Image,Cell, CellGroup } from 'vant';
+import tableComp from '../../../../components/table-comp.vue'
 export default {
   name:'Design',
   data(){
     return {}
   },
   components:{
-    [Image.name]:Image
+    [Image.name]:Image,
+    [Cell.name]:Cell,
+    [CellGroup.name]:CellGroup,
+    tableComp
   }
 }
 </script>
 
 <style scoped>
-
+.general-plan{
+  overflow: auto !important;
+}
 </style>

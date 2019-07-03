@@ -3,7 +3,7 @@
     <generalPlan></generalPlan>
     <businessComp></businessComp>
     <product></product>
-   <!-- <otherComp></otherComp> -->
+   <otherComp></otherComp>
   </div>
 </template>
 
